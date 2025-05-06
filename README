@@ -27,6 +27,3 @@ Ce projet permet de faire communiquer une application **Android (Java)** avec un
 * 🐘 PHP procédural ou orienté objet
 * 🐬 MySQL via phpMyAdmin
 * 📁 Scripts PHP (ex : `insert_recipe.php`, `get_recipe.php`, `delete_recipe.php`)
-
----
-
