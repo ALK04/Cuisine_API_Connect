@@ -1,1 +1,33 @@
-TEST
+
+# 📱💾 Android ↔️ PHP/MySQL – Communication Base de Données
+
+## Description
+
+Ce projet permet de faire communiquer une application **Android (Java)** avec une base de données **MySQL** en utilisant des scripts **PHP** hébergés sur un serveur. Il a été réalisé dans un **cadre scolaire**, sans l’utilisation de framework, afin d'apprendre les bases de la communication entre un client mobile et une base de données via le protocole HTTP.
+
+---
+
+## Fonctionnement
+
+* L'application Android envoie des requêtes HTTP (de type `POST` ou `GET`) à des fichiers PHP hébergés sur un serveur local (ou distant).
+* Les scripts PHP reçoivent les données, se connectent à **phpMyAdmin/MySQL**, effectuent les opérations (insertion, récupération, suppression…), et retournent une réponse (souvent en **JSON**) à l'application.
+* L'application Android analyse la réponse pour mettre à jour son interface ou confirmer une action.
+
+---
+
+## Technologies utilisées
+
+### Côté client (Android) :
+
+* ☕ Java
+* 📡 `HttpURLConnection` / `AsyncTask` ou `Volley`
+* 🧭 Interface utilisateur en XML
+
+### Côté serveur :
+
+* 🐘 PHP procédural ou orienté objet
+* 🐬 MySQL via phpMyAdmin
+* 📁 Scripts PHP (ex : `insert_recipe.php`, `get_recipe.php`, `delete_recipe.php`)
+
+---
+
